@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body ocupa a tela inteira */
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+
+.logo-header {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.background {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url("../assets/imgs/fundoBody.jpg");
+}
+.container {
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.logo-main {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.3;
+}
